@@ -16,6 +16,7 @@ import java.util.TreeMap;
 import java.util.regex.Pattern;
 
 /**
+ * Uses: http://dev.maxmind.com/geoip/legacy/geolite/
  *
  * @author Sebastian Maier (sebastian@progether.com)
  */

@@ -69,14 +69,4 @@ public class ParseNginx extends AbstractParser {
         });
     }
 
-    public static void main(String[] args) throws MissingDissectorsException, InvalidDissectorException, IOException {
-
-        ParseNginx pn = new ParseNginx(Paths.get("../data/GeoIPCountryWhois.csv"));
-        pn.parseCommon(Paths.get("../data/access-combined.log"), line -> {
-            // nop
-            //System.out.println(line);
-        });
-
-    }
-
 }

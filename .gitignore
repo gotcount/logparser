@@ -1,0 +1,6 @@
+# maven
+target/
+
+# nb
+nb-configuration.xml
+nbactions.xml
